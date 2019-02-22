@@ -28,14 +28,16 @@ public class Inventario {
     
       return libros;
     }
+   
     /**
      * Este metodo realiza una consulta a BD y trae todo el contenido del inventario
-     * @return me va a retornar un array con todos los libros 
+     * @return me va a retornar un array con todos los libros
      */
-    private String[] muestraStock(){
+     private String[] muestraStock(){
         
     return libros;
     }
+    
     /**
      * Este metodo suma en BD el numero de vendidos por libro y resta en el inventario
      * @param libro recibe el nombre del libro vendido
@@ -45,14 +47,8 @@ public class Inventario {
     
         
     }
-    /**
-     * Este metodo Realiza una Busqueda en BD y devuelve los libros donde queden menos de 10 unidades
-     * @return retorna un array con el titutlo de los libros 
-     */
-    private String[] menorDiez(){
-        
-    return libros;    
-    } 
+   
+  
     /**
      * Este metodo devuelve los libros mas vendidos
      * @return devuelve un array con el titulo de los libros
